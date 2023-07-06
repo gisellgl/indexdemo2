@@ -1,0 +1,60 @@
+margin 
+	&: 
+		0; 
+			padding 
+				&: 
+					0; 
+						} 
+							.grid 
+								width: 100% 
+								height: 2000px 
+								margin: 0 auto 
+								background-color: rgb(255, 223, 239) 
+								gap: 5px 5px 
+								display: grid 
+								grid-template-areas: 'arriba arriba arriba'
+                         'main main main'
+                         'footer footer footer' 
+.caja 
+	border: 1px solid black 
+	line-height: 100px 
+	text-align: center 
+.c1 
+	grid-area: arriba 
+.c2 
+	grid-area: main 
+	background-image: url(img/info.png)
+    background-size: cover 
+	background-position: 0 -150px 
+.c3 
+	grid-area: footer 
+.c4 
+	grid-area: footer 
+	background-color: bisque 
+.nav-list 
+	display: flex 
+	justify-content: center 
+	gap: 1rem 
+	text-decoration: none 
+	color: hotpink 
+	li 
+		a 
+			text-decoration: none 
+			color: rgb(250, 90, 186) 
+.logoflorecita 
+	display: flex 
+	flex-direction: column 
+	justify-content: center 
+	align-items: center 
+body 
+	font-family: 'bakso',Arial, Helvetica, sans-serif 
+	background-color: #fce4f2 
+@font-face 
+	font-family: bakso 
+	src: url(font/BaksoSapi.otf) 
+	font-size: medium 
+h1 
+	color: #cda4bc 
+	font-style: oblique 
+	text-align: center 
+	font-family: 'helvetica', 'Arial Narrow', Arial, sans-serif 
